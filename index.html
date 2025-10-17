@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mbishi Tech Shop - Premium Gadgets & Electronics</title>
+    <meta name="description" content="Mbishi Tech Shop - Get the best gadgets in the District with 1-year turn-back guarantee!">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+                <div class="nav-logo">
+                <a href="index.html" class="logo-link"><h1 class="logo">MBISHI</h1></a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="products.html" class="nav-link">Shop</a>
+                <a href="#new-arrivals" class="nav-link">New Arrivals</a>
+                <a href="#discounts" class="nav-link">Discounts</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#" class="nav-link">Cart <span id="cart-count" class="cart-badge">0</span></a>
+            </div>
+            
+            <div class="nav-timer">
+                <span class="timer-text">Promotion ends in </span>
+                <span class="timer-count" id="timer">48:00:17</span>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="verification-badge">
+                <i class="fas fa-check-circle"></i>
+                <span>Fully Registered Mbishi Project</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="title-line">Zvese Tinazvo pa</span>
+                <span class="title-line glow-text">Mbishi Tech Shop</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                Get the best gadgets in the District with 1 year turn back guarantee!
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="products.html" class="btn btn-primary">
+                    Shop Now
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="products.html" class="btn btn-secondary">View Products</a>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-element element-1"></div>
+        <div class="floating-element element-2"></div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="section featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-fire"></i>
+                    Zviri Kupisa 🔥
+                </h2>
+                <p class="section-subtitle">Discover our most popular and trending tech products</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop&crop=center" alt="HP Zbook">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">HP Zbook 8gb RAM</h3>
+                        <p class="product-category">Laptop</p>
+                        <p class="product-description">High-performance laptop for professionals</p>
+                        <div class="product-price">$599</div>
+                        <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=300&fit=crop&crop=center" alt="Game Pad">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Game Pad</h3>
+                        <p class="product-category">Accessories</p>
+                        <p class="product-description">Premium gaming controller</p>
+                        <div class="product-price">$1000</div>
+                        <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&h=300&fit=crop&crop=center" alt="Gaming Keyboard">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Gaming Keyboard</h3>
+                        <p class="product-category">Keyboard</p>
+                        <p class="product-description">Mechanical RGB gaming keyboard</p>
+                        <div class="product-price">$19.99</div>
+                        <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="category-pills">
+                <span class="pill">Mbishi Official</span>
+                <span class="pill">Mbishi Deals</span>
+                <span class="pill">Mbishi Tech</span>
+                <span class="pill">Mbishi Gadgets</span>
+                <span class="pill">Mbishi Store</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discounts Section -->
+    <section id="discounts" class="section discounts">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-sparkles"></i>
+                    Discounts ✨
+                </h2>
+                <p class="section-subtitle">Limited time offers on premium tech accessories</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card discount-card">
+                    <div class="discount-badge">
+                        <i class="fas fa-sparkles"></i>
+                        Discount ✨
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1619134778706-7015533a6150?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2hlcyUyMGZvciUyMG1lbnxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000" alt="Analog Watch">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Analog Watch</h3>
+                        <p class="product-category">Accessories</p>
+                        <div class="price-container">
+                            <span class="old-price">$96</span>
+                            <span class="new-price">$86</span>
+                        </div>
+                        <div class="discount-info">
+                            <span class="discount-text">Save 10% OFF</span>
+                            <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card discount-card">
+                    <div class="discount-badge">
+                        <i class="fas fa-sparkles"></i>
+                        Discount ✨
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop&crop=center" alt="Smart Watch">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Smart Watch</h3>
+                        <p class="product-category">Accessories</p>
+                        <div class="price-container">
+                            <span class="old-price">$800</span>
+                            <span class="new-price">$700</span>
+                        </div>
+                        <div class="discount-info">
+                            <span class="discount-text">Save 12% OFF</span>
+                            <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card discount-card">
+                    <div class="discount-badge">
+                        <i class="fas fa-sparkles"></i>
+                        Discount ✨
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop&crop=center" alt="Speaker Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Speaker Pro</h3>
+                        <p class="product-category">Speaker</p>
+                        <div class="price-container">
+                            <span class="old-price">$16.99</span>
+                            <span class="new-price">$15.99</span>
+                        </div>
+                        <div class="discount-info">
+                            <span class="discount-text">Save 6% OFF</span>
+                            <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <button class="btn btn-secondary">View All Discounts</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section id="new-arrivals" class="section new-arrivals">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-star"></i>
+                    New Arrivals
+                </h2>
+                <p class="section-subtitle">Fresh tech products just added to our collection</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card new-card">
+                    <div class="new-badge">New Arrivals</div>
+                    <div class="product-image">
+                        <img src="data:image/jpeg;base64,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" alt="Desk Cooling Fan">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Desk Cooling Fan</h3>
+                        <p class="product-category">Accessories</p>
+                        <div class="price-container">
+                            <span class="old-price">$60</span>
+                            <span class="new-price">$40</span>
+                        </div>
+                        <div class="discount-info">
+                            <span class="discount-text">Save 33% OFF</span>
+                            <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card new-card">
+                    <div class="new-badge">New Arrivals</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1623251609314-97cc1f84e3ed?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687" alt="Laptop Stand">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Laptop Stand</h3>
+                        <p class="product-category">Accessories</p>
+                        <div class="price-container">
+                            <span class="old-price">$75</span>
+                            <span class="new-price">$70</span>
+                        </div>
+                        <div class="discount-info">
+                            <span class="discount-text">Save 7% OFF</span>
+                            <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card new-card">
+                    <div class="new-badge">New Arrivals</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=300&fit=crop&crop=center" alt="DSLR Camera">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">DSLR Camera</h3>
+                        <p class="product-category">Photography</p>
+                        <div class="price-container">
+                            <span class="old-price">$1400</span>
+                            <span class="new-price">$1200</span>
+                        </div>
+                        <div class="discount-info">
+                            <span class="discount-text">Save 14% OFF</span>
+                            <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <button class="btn btn-secondary">Explore All New Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Black Friday Deals Section -->
+    <section class="section black-friday">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-bolt"></i>
+                    Mbishi Black Friday Deals
+                </h2>
+                <p class="section-subtitle">Exclusive Black Friday offers - Limited time only!</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card black-friday-card">
+                    <div class="black-friday-badge">
+                        <i class="fas fa-bolt"></i>
+                        Black Friday Deals
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400&h=300&fit=crop&crop=center" alt="2TB SSD Drive">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">2TB SSD Drive</h3>
+                        <p class="product-category">Storage</p>
+                        <div class="price-container">
+                            <span class="old-price">$400</span>
+                            <span class="new-price">$96</span>
+                        </div>
+                        <div class="discount-info">
+                            <span class="discount-text">Save 76% OFF</span>
+                            <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card black-friday-card">
+                    <div class="black-friday-badge">
+                        <i class="fas fa-bolt"></i>
+                        Black Friday Deals
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1682948163895-95eef28e96b9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zmxhc2glMjBkcml2ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Flash Drive Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Flash Drive Pro</h3>
+                        <p class="product-category">Storage</p>
+                        <div class="price-container">
+                            <span class="old-price">$40</span>
+                            <span class="new-price">$45</span>
+                        </div>
+                        <div class="discount-info">
+                            <span class="discount-text">Special Price</span>
+                            <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card black-friday-card">
+                    <div class="black-friday-badge">
+                        <i class="fas fa-bolt"></i>
+                        Black Friday Deals
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1553556135-009e5858adce?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvbmUlMjBzdGFuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Phone Stand">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Phone Stand</h3>
+                        <p class="product-category">Mobile</p>
+                        <div class="price-container">
+                            <span class="old-price">$40</span>
+                            <span class="new-price">$75</span>
+                        </div>
+                        <div class="discount-info">
+                            <span class="discount-text">Special Price</span>
+                            <a href="products.html" class="btn btn-primary btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <button class="btn btn-black-friday">Shop Black Friday Deals</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title testimonials-title">WHAT CUSTOMERS SAY!</h2>
+                <p class="section-subtitle">Hear from our satisfied customers about their experience with Mbishi Tech Shop</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <button class="message-btn">
+                        <i class="fas fa-comment"></i>
+                    </button>
+                    <div class="testimonial-content">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1524159730786-4e74a1b78d7d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwYW1lcmljYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600" alt="Nqobile">
+                        </div>
+                        <h3 class="testimonial-name">Nqobile</h3>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Ndalara Zvikuru"</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <button class="message-btn">
+                        <i class="fas fa-comment"></i>
+                    </button>
+                    <div class="testimonial-content">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Anotida">
+                        </div>
+                        <h3 class="testimonial-name">Anotida</h3>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Ngiyawuthanda umsebenzi"</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <button class="message-btn">
+                        <i class="fas fa-comment"></i>
+                    </button>
+                    <div class="testimonial-content">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1683595350111-51fde6bdbcff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJsYWNrJTIwYW1lcmljYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600" alt="Tadiwa">
+                        </div>
+                        <h3 class="testimonial-name">Tadiwa</h3>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Loving It!"</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <button class="message-btn">
+                        <i class="fas fa-comment"></i>
+                    </button>
+                    <div class="testimonial-content">
+                        <div class="testimonial-avatar">
+                            <img src="https://plus.unsplash.com/premium_photo-1702058276958-c3d40c3f1dc7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJsYWNrJTIwYW1lcmljYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600" alt="Thanqwo">
+                        </div>
+                        <h3 class="testimonial-name">Thanqwo</h3>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Ngiyabonga kakhulu kuMbishi"</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <button class="message-btn">
+                        <i class="fas fa-comment"></i>
+                    </button>
+                    <div class="testimonial-content">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face" alt="Samuel">
+                        </div>
+                        <h3 class="testimonial-name">Samuel</h3>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Very Cheap!"</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <button class="message-btn">
+                        <i class="fas fa-comment"></i>
+                    </button>
+                    <div class="testimonial-content">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Tamusage">
+                        </div>
+                        <h3 class="testimonial-name">Tamusage</h3>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Ndinogara ndichishandisa lepaz yavo"</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-stats">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.9/5</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Satisfaction Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="contact" class="section cta">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title cta-title">Buy A Device Right This Instance! Izvezvi So!</h2>
+                <p class="section-subtitle">Get instant purchase right to your doorstep without the hustle of traveling.</p>
+            </div>
+            
+            <div class="cta-form-container">
+                <form class="cta-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Johanna.studios@gmail.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="johanna@gmail.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product">Product</label>
+                        <select id="product" name="product" required>
+                            <option value="">Select Product</option>
+                            <option value="HP Zbook 8gb RAM">HP Zbook 8gb RAM</option>
+                            <option value="Game Pad">Game Pad</option>
+                            <option value="Gaming Keyboard">Gaming Keyboard</option>
+                            <option value="Analog Watch">Analog Watch</option>
+                            <option value="Smart Watch">Smart Watch</option>
+                            <option value="Speaker Pro">Speaker Pro</option>
+                            <option value="Desk Cooling Fan">Desk Cooling Fan</option>
+                            <option value="Laptop Stand">Laptop Stand</option>
+                            <option value="DSLR Camera">DSLR Camera</option>
+                            <option value="2TB SSD Drive">2TB SSD Drive</option>
+                            <option value="Flash Drive Pro">Flash Drive Pro</option>
+                            <option value="Phone Stand">Phone Stand</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Send a message</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your requirements..." rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i>
+                        Submit
+                    </button>
+                </form>
+                
+                <div class="form-success" id="form-success" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Thank You!</h3>
+                    <p>We'll get back to you within 24 hours.</p>
+                </div>
+            </div>
+            
+            <div class="cta-info">
+                <i class="fas fa-check-circle"></i>
+                <span>All products come with 1-year warranty and free delivery</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3 class="footer-title">Zvese Zvaunoda Panzvimbo imwe</h3>
+                    <p class="footer-description">Get a 1 year turn back guarantee on all products!</p>
+                    <p class="footer-text">Get your items locally, quick delivery, affordable prices.</p>
+                </div>
+                
+                <div class="footer-right">
+                    <h4 class="footer-subtitle">Socials</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Nqobileee" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>Github</span>
+                            <span class="follower-count">(2.5k)</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nqobile-muyambiri-423522236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                            <span class="follower-count">(1.2k)</span>
+                        </a>
+                        <a href="https://nqobilemportfolio.framer.website/" class="social-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Portfolio</span>
+                            <span class="follower-count">(500+)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-logo">
+                <div class="glowing-logo">
+                    <h2 class="logo-text">MBISHI</h2>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <span>© 2024 Mbishi Tech Shop. All rights reserved.</span>
+                </div>
+                <div class="footer-links">
+                    <span class="made-in">Made in Zimbabwe</span>
+                    <button class="back-to-top" id="back-to-top">
+                        <i class="fas fa-arrow-up"></i>
+                        <span>Back to top</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="floating-whatsapp" id="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <!-- Made in Zimbabwe Text -->
+    <div class="made-in-zimbabwe">Made in Zimbabwe</div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
