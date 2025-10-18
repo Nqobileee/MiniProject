@@ -421,12 +421,14 @@
                 </div>
 
                 <!-- Summary / Buy all -->
-                <div class="products-summary">
-                    <div>
-                        <strong>Total:</strong> <span id="cart-total">$0.00</span>
+                <section id="cart-section">
+                    <div class="products-summary">
+                        <div>
+                            <strong>Total:</strong> <span id="cart-total">$0.00</span>
+                        </div>
+                        <button id="buy-all" class="btn-buy-all" disabled>Buy All (0)</button>
                     </div>
-                    <button id="buy-all" class="btn-buy-all" disabled>Buy All (0)</button>
-                </div>
+                </section>
 
             </div>
         </div>
@@ -461,7 +463,7 @@
     </footer>
 
     <!-- Floating Cart Icon -->
-    <div class="floating-cart" id="floating-cart" title="View cart" role="button" aria-label="Cart">
+    <div class="floating-cart" id="floating-cart" title="View cart" role="button" aria-label="Cart" onclick="window.location.href='#cart-section'">
         <i class="fas fa-shopping-cart"></i>
         <span id="floating-cart-badge" class="floating-cart-badge">0</span>
     </div>
@@ -469,5 +471,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
