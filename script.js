@@ -231,7 +231,7 @@ if (backToTop) window.addEventListener('scroll', () => {
 
 // WhatsApp button functionality
 if (whatsappBtn) whatsappBtn.addEventListener('click', () => {
-    const phoneNumber = '+1234567890'; // Replace with actual WhatsApp number
+    const phoneNumber = '+263786865719'; 
     const message = 'Hello! I\'m interested in your tech products.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
@@ -286,8 +286,8 @@ document.querySelectorAll('.btn').forEach(btn => {
 // Testimonial message button functionality
 document.querySelectorAll('.message-btn').forEach(btn => {
     btn.addEventListener('click', function() {
-        // In a real app, this would open a chat or message interface
-        alert('Message feature coming soon! Contact us via WhatsApp for immediate assistance.');
+ 
+        alert('Message feature irikuuya manje manje! Contact us via WhatsApp for immediate assistance.');
     });
 });
 
